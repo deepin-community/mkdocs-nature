@@ -1,0 +1,3 @@
+version=3
+opts=dversionmangle=s/\+dfsg//,repacksuffix=+dfsg \
+https://pypi.debian.net/mkdocs-nature/mkdocs-nature-(.+)\.tar\.gz

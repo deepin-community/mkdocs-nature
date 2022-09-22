@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+export PYBUILD_INSTALL_ARGS=--install-lib=/usr/share/mkdocs/themes/
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_python3:
+	dh_python3 /usr/share/mkdocs/themes/

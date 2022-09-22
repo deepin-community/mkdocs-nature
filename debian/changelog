@@ -1,0 +1,21 @@
+mkdocs-nature (0.4+dfsg-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update to debhelper compat level 12, use the new syntax.
+  * Bump Standards-Version to 4.5.0, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 13 Apr 2020 20:44:12 +0300
+
+mkdocs-nature (0.3.1+dfsg-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump mkdocs dependency to 1.0.
+  * Bump Standards-Version to 4.2.1, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 19 Dec 2018 13:42:59 +0300
+
+mkdocs-nature (0.2.1+dfsg-1) unstable; urgency=medium
+
+  * Initial release (closes: #901165).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 13 Jun 2018 13:49:26 +0300
