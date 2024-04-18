@@ -2,12 +2,13 @@ Source: mkdocs-nature
 Section: text
 Priority: optional
 Maintainer: Dmitry Shachnev <mitya57@debian.org>
-Build-Depends: debhelper-compat (= 12),
+Build-Depends: debhelper-compat (= 13),
                dh-python,
-               mkdocs (>= 1.0),
+               mkdocs,
                python3-all,
                python3-setuptools
-Standards-Version: 4.5.0
+Rules-Requires-Root: no
+Standards-Version: 4.6.2
 Homepage: http://waylan.limberg.name/mkdocs-nature/
 Vcs-Git: https://salsa.debian.org/debian/mkdocs-nature.git
 Vcs-Browser: https://salsa.debian.org/debian/mkdocs-nature
@@ -16,7 +17,7 @@ Package: mkdocs-nature
 Architecture: all
 Depends: libjs-jquery,
          libjs-underscore,
-         mkdocs (>= 1.0),
+         mkdocs,
          ${misc:Depends},
          ${python3:Depends}
 Description: Nature theme for MkDocs

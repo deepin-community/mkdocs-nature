@@ -1,3 +1,29 @@
+mkdocs-nature (0.6+dfsg-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 16 Sep 2023 16:50:26 +0300
+
+mkdocs-nature (0.5+dfsg-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set field Upstream-Name in debian/copyright.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Remove constraints unnecessary since buster (oldstable):
+    + Build-Depends: Drop versioned constraint on mkdocs (>= 1.0).
+    + mkdocs-nature: Drop versioned constraint on mkdocs (>= 1.0) in Depends.
+
+  [ Dmitry Shachnev ]
+  * Update debian/watch to track archives from GitHub.
+  * New upstream release.
+  * Add mkdocs_nature.egg-info/ to debian/clean.
+  * Update to debhelper compat level 13.
+  * Bump Standards-Version to 4.6.2, no changes needed.
+  * Set Rules-Requires-Root: no.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 11 Aug 2023 23:43:06 +0300
+
 mkdocs-nature (0.4+dfsg-1) unstable; urgency=medium
 
   * New upstream release.
