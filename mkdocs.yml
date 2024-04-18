@@ -1,0 +1,28 @@
+site_name: MkDocs-Nature
+site_author: "Waylan Limberg"
+site_url: https://waylan.github.io/mkdocs-nature/
+
+repo_name: GitHub
+repo_url: https://github.com/waylan/mkdocs-nature
+
+copyright: "Copyright &copy; 2017"
+
+theme:
+    name: nature
+    issue_tracker: https://github.com/waylan/mkdocs-nature/issues
+    icon: icon.png
+    release: '0.4'
+
+markdown_extensions:
+    - toc:
+        permalink: §
+    - codehilite
+    - admonition
+
+nav:
+    - MkDocs-Nature: index.md
+    - Features: features.md
+    - About:
+        - "The Project": about.md
+        - Contributing: contributing.md
+        - "Release Notes": release-notes.md
